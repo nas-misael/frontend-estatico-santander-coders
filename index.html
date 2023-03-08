@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lojinha da Educação</title>
+    <link rel="shortcut icon" href="./assets/img/book.png" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="header-logo">
+          <a href="#" class="logo">
+              <img src="./assets/img/book.png" alt="Logo Lojinha de Educação" title="Logo Lojinha da Educação">
+          </a>
+          <p>
+            Lojinha da Educação
+          </p>
+        </div>
+        <ul class="menu">
+            <li class="menu-item"><a class="menu-item-link" href="#quemSomos">Quem Somos</a></li>
+            <li class="menu-item"><a class="menu-item-link" href="#produtos">Nossos Produtos</a></li>
+            <li class="menu-item"><a class="menu-item-link" href="#formulario">Adquira Já</a></li>
+        </ul>
+    </header>
+    <div class="content">
+       <div class="banner">
+         <img src="./assets/img/banner.jpg" alt="">
+          <div class="banner-content">
+            <p>Bem-vindo(a) à Lojinha da Educação!</p>
+          </div>
+       </div>
+       <div class="sobre" id="quemSomos">
+        <h1>Atualizações e Conhecimento você encontra na Lojinha da Educação</h1>
+        <div class="sobre-content">
+          
+          <h2>Nossa História</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime totam aliquam qui nam quod quibusdam amet error ducimus? Sint consectetur inventore porro accusantium recusandae officia, doloribus vero aliquam tempore ab.
+          </p>
+          <h2>Onde estamos</h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint, laboriosam non tempore voluptas voluptatibus ipsa error sed itaque facilis exercitationem laudantium voluptatem consectetur nihil perspiciatis nesciunt magni numquam. Nemo, nisi!
+          </p>
+          <h2>Como funciona</h2>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam dolor iste, officiis consectetur excepturi ipsum accusamus est ipsam consequatur delectus quo natus ea rem similique ratione illum atque reprehenderit aliquid.
+          </p>
+        </div>
+       </div>
+       <div class="cards" id="produtos">
+        <h2>Fique por dentro dos nossos produtos</h2>
+        <div class="card-contents">
+          <div class="card">
+              <div class="superior">
+                <img
+                  src="./assets/img/daily.png"
+                  alt="Foto de Capa"
+                />
+              </div>
+              <div class="inferior">
+                  <p>Acesso <span class="periodo">24H</span> de conteúdos exclusivos de educação da lojinha com desconto de até <span class="desconto">5%</span>!</p>
+                  <a class="cta-button" href="#formulario">Garantir Meu Desconto</a>
+                </div>
+              
+            </div>
+            <div class="card">
+              <div class="superior">
+                <img
+                  src="./assets/img/monthly.png"
+                  alt="Foto de Capa"
+                />
+              </div>
+              <div class="inferior">
+                <p>Acesso <span class="periodo">MENSAL</span> de conteúdos exclusivos de educação com desconto de <span class="desconto">15%</span>!</p>
+                <a class="cta-button" href="#formulario">Garantir Meu Desconto</a>
+              </div>
+            </div>
+            <div class="card">
+              <div class="superior">
+                <img
+                  src="./assets/img/semester.png"
+                  alt="Foto de Capa"
+                />
+              </div>
+              <div class="inferior">
+                <p>Acesso <span class="periodo">SEMESTRAL</span> de conteúdos exclusivos de educação com desconto de <span class="desconto">30%</span>!</p>
+                <a class="cta-button" href="#formulario">Garantir Meu Desconto</a>
+              </div>
+            </div>
+        </div>
+       </div>
+       <div class="formulario">
+          <form class="contact-form" action="/"onclick="event.preventDefault();" id="formulario">
+            <h2>Preencha o formulário para que nossos consultores possam entrar em contato com você!</h2>
+            <div class="form-group">
+              <label for="name">Nome completo *</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+              <label for="email">E-mail *</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+              <label for="phone">Telefone *</label>
+              <input type="tel" id="phone" name="phone" required>
+            </div>
+            <button type="submit">Enviar</button>
+          </form>
+          <div class="icon-form">
+            <img src="./assets/img/formulario.png" alt="" class="superior">
+          </div>
+       </div>
+        <footer class="rodape">
+          <div class="rodape-contato">
+              <h3>Contato</h3>
+              <p>Entre em contato conosco para mais informações.</p>
+              <ul class="contact-list">
+                <li><i class="fa fa-phone"></i> (11) 1234-5678</li>
+                <li><i class="fa fa-envelope"></i> contato@meusite.com.br</li>
+                <li><i class="fa fa-map-marker"></i> Rua Principal, 123 - RS</li>
+              </ul>
+            </div>
+            <div class="links-uteis">
+              <h3>Links úteis</h3>
+              <ul class="useful-links">
+                <li><a href="#">Política de privacidade</a></li>
+                <li><a href="#">Termos de uso</a></li>
+                <li><a href="#">FAQ</a></li>
+              </ul>
+            </div>
+        </footer>
+</body>
+</html>
